@@ -1,0 +1,12 @@
+.logo {
+    margin: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(97, 183, 97);
+    letter-spacing: 2px;
+    margin-right: 700px;
+}
+
+th {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0px 100px;
+}
