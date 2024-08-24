@@ -6,7 +6,6 @@
 .logo {
     color:rgb(51, 136, 51);
     font-family:Impact;
-    font-size:40px;
     padding:50px;
     display:inline-block;
     margin-left:50px;
@@ -35,12 +34,13 @@ a {
 .body {
     
     background-color: lightgray;
-    margin:50px;
-    padding:90px;
+    margin:30px;
+    padding:70px;
+    padding-top:30px;
 }
 
 .title {
-    font-size:50px;
+    font-size:30px;
     font-family:Impact;
 }
 
@@ -59,7 +59,7 @@ a {
     font-size:20px;
     font-family:Arial;
 }
-
+/*
 .images {
     margin-right:-70px;
 }
@@ -74,4 +74,50 @@ img {
     padding:8px;
     float:right;
     z-index:1;
+}
+*/
+figure {
+    left:40px;
+    margin:8px;
+}
+
+.fig {
+    position:relative;
+    display:inline;
+    float:right;
+    bottom:400px;
+}
+
+.food {
+    width:300px;
+    height:400px;
+    object-fit:cover;
+    z-index:1;
+}
+
+figcaption {
+    position:absolute;
+    bottom:10px;
+    right:28px;
+    z-index:2;
+    line-height:35px;
+    width:100px;
+    
+}
+
+.whitecap, .greencap {
+    font-family:Arial;
+    font-weight:bold;
+    padding:15px;
+}
+
+.whitecap {
+    background-color: white;
+    position:relative;
+    left:42px;
+    bottom:12px;
+}
+
+.greencap {
+    background-color:rgb(51, 136, 51);
 }
