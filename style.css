@@ -32,8 +32,8 @@ a {
 }
 
 .body {
-    
-    background-color: lightgray;
+    background-image: url(images/moroccan-flower.png);
+    background-repeat:x;
     margin:30px;
     padding:70px;
     padding-top:30px;
